@@ -1,8 +1,6 @@
 ## Exploring Representation-Level Augmentation for Code Search
 
-This repo contains code for Exploring Representation-Level Augmentation for Code Search 
-by Haochen Li, Chunyan Miao, 
-Yanxian Huang, Yuan Huang, Hongyu Zhang and Yanlin Wang, accepted to EMNLP 2022. 
+This repo contains code for [Exploring Representation-Level Augmentation for Code Search](https://arxiv.org/abs/2210.12285), accepted to EMNLP 2022. 
 In this codebase we provide instructions for
 reproducing our results from the paper. 
 We hope that this work can be useful for future 
