@@ -113,7 +113,8 @@ class ModelContra(PreTrainedModel):
 
     def generate_binary_interpolate_data(self, code_vec_ori, nl_vec_ori, labels):
         l = 0.25
-        tmp = self.uniform.sample((1, code_vec_ori.size(1))).to(self.args.device)
+        uniform = torch.distributions.uniform.Uniform(0, 1)
+        tmp = uniform.sample((1, code_vec_ori.size(1))).to(self.args.device)
         pos_mask = (tmp > l).int()
         neg_mask = (~ (tmp > l)).int()
 
