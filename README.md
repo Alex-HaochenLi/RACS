@@ -101,6 +101,18 @@ For detailed configurations, please see the argument parser part in code.
 Note: To turn off representation-level augmentation, simply remove ``--ra`` in the command line.
 
 
+## Citation
+If you found this repository useful, please consider citing:
+```bash
+@inproceedings{li2022exploring,
+  title={Exploring Representation-level Augmentation for Code Search},
+  author={Li, Haochen and Miao, Chunyan and Leung, Cyril and Huang, Yanxian and Huang, Yuan and Zhang, Hongyu and Wang, Yanlin},
+  booktitle={Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
+  pages={4924--4936},
+  year={2022}
+}
+```
+
 ## Acknowledgement
 
 The implementation of this repo relies on resources from [CoCLR](https://github.com/Jun-jie-Huang/CoCLR), [GraphCodeBERT](https://github.com/microsoft/CodeBERT).
