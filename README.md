@@ -103,7 +103,7 @@ Note: To turn off representation-level augmentation, simply remove ``--ra`` in t
 
 ## Citation
 If you found this repository useful, please consider citing:
-```bash
+```
 @inproceedings{li2022exploring,
   title={Exploring Representation-level Augmentation for Code Search},
   author={Li, Haochen and Miao, Chunyan and Leung, Cyril and Huang, Yanxian and Huang, Yuan and Zhang, Hongyu and Wang, Yanlin},
